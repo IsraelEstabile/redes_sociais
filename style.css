@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Rajdhani";
+    src: url(fonts/Rajdhani/Rajdhani-Medium.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+div.principal {
+    color: rgba(219, 219, 131, 0.973);
+    background-color: rgba(109, 77, 17, 0.295);
+    font-family: "Rajdhani", sans-serif;
+    margin: auto;
+    text-align: justify;
+    width: 450px;
+    height: 350px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+div.principal h1{
+    margin-top: -5px;
+    text-align: center;
+    font-size: 2em;
+}
+div.principal a{
+    color: rgba(243, 158, 1, 0.596);
+}
+div.principal p{
+    margin-left: 150px;
+    margin-right: 5px;
+}
+div.principal img#perfil{
+    max-width: 120px;
+    max-height: 120px;
+    position: absolute;
+    border-style: solid;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+div#redes h2{
+    color: rgb(44, 33, 11);
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+div#redes {
+    margin-top: 33px;
+    background-color: rgba(228, 228, 131, 0.637);
+    border: 1px solid rgb(44, 33, 11);
+    border-radius: 15px;
+}
+
+div#redes ul li img{
+    background-color: yellow;
+    border-radius: 150px;
+}
+div#redes ul{
+    margin-top: -15px;
+    color: rgb(44, 33, 11);
+}
+div#redes ul a {
+    font-weight: bolder ;
+    color: rgb(44, 33, 11);
+}
+div#redes > a#construcao {
+    position: absolute;
+    max-width: 120px;
+    margin-top: -135px;
+    margin-left: 300px;
+    display: none;
+}
+div#redes:hover > a#construcao{
+    display: block;
+}
+body{
+    background-color: rgb(44, 33, 11);
+    margin: auto;
+    padding-top: 100px;
+    background-attachment: fixed;
+}
