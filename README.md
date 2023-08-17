@@ -2,4 +2,4 @@
 
 "Cartão de visitas"
 
-Visite: <a href="">
+<a href="https://israelestabile.github.io/redes_sociais/" target="_blank">Visite o site </a>
